@@ -1,0 +1,17 @@
+{
+  "name": "protractor-saucedemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^133.0.3",
+    "protractor": "^7.0.0",
+    "protractor-helper": "^4.2.1"
+  }
+}
