@@ -1,4 +1,4 @@
-# Testes Automatizados no SauceDemo com Protractor
+# 🚀 Projeto Sauce Demo com Protractor
 
 Este repositório contém testes automatizados para o site [SauceDemo](https://www.saucedemo.com/) utilizando o Protractor.
 
@@ -11,9 +11,18 @@ Antes de executar os testes, certifique-se de ter os seguintes requisitos instal
 ## Instalação
 Clone este repositório e instale as dependências:
 ```sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+
+# Clone o repositório
+git clone https://github.com/gabrielsilva9810/protractor-tests.git
+
+# Acesse o diretório do projeto
+cd protractor-tests
+
+# Instale as dependências
 npm install
+
+# Instale o Cypress
+npm install cypress --save-dev
 ```
 
 ## Configuração do WebDriver
@@ -26,7 +35,7 @@ npx webdriver-manager start
 ## Execução dos Testes
 Para rodar os testes, utilize o comando:
 ```sh
-npx protractor.conf.js
+npx protractor.conf.js  # Executa os testes em modo headless
 ```
 
 ## Estrutura do Projeto
@@ -42,6 +51,6 @@ npx protractor.conf.js
 - Protractor
 - Jasmine
 
-## Autor
-Gabriel Silva
+---
+🤝🏻 Feito por [Gabriel Silva](https://www.linkedin.com/in/gabrielsilva9810/)
 
